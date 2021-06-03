@@ -1,0 +1,13 @@
+Album:
+	artist
+	title
+	release_date
+	genre
+	producer
+	studio
+	
+Track:
+	album_id
+	title
+	length
+	format
