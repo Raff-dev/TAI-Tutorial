@@ -9,7 +9,6 @@ class Album(models.Model):
     release_date = models.DateField(_("Release Date"), auto_now=False, auto_now_add=False, blank=False)
     genre = models.CharField(_("Genre"), max_length=50, blank=False)
     producer = models.CharField(_("Producer"), max_length=50, blank=False)
-    studio = models.CharField(_("Studio"), max_length=50, blank=False)
 
 
 class Track(models.Model):
